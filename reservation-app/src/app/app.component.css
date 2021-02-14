@@ -148,7 +148,7 @@ body {
 
 /* line 2, ../../../components/sass/modules/_intro.scss */
 header .fullheight {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/assets/images/hotel/splash_hotelphoto.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://www.travelalerts.ca/wp-content/uploads/2019/12/CfEW2l3A.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -403,6 +403,24 @@ header #nav .navbar ul li a.active {
   padding: 10px 0;
 }
 
+.form-horizontal {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.65;
+}
+
+.form-group label {
+  margin-right: 5px;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.form-horizontal .form-group {
+  padding: 10px 0;
+}
+
 /* line 22, ../../../components/sass/_mixins.scss */
 #welcome .gallery:before, #welcome .gallery:after {
   content: '';
@@ -616,6 +634,7 @@ header #nav .navbar ul li a.active {
   /* line 21, ../../../components/sass/modules/_dining.scss */
   #dining #areadining p {
     font-size: 1.5em;
+    font-style: italic;
     line-height: 140%;
   }
 
